@@ -135,7 +135,7 @@ header label span {
 }
 
 main {
-    margin-top: 92px;
+    margin-top: 97px;
     padding: 2rem 1.5rem;
     background: var(--main-color);
     min-height: calc(100vh - 90px);
@@ -180,4 +180,47 @@ main {
 
 .card-single:last-child span {
     color: var(--second-color);
+}
+
+.recent-grid {
+    margin-top: 3rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 67% auto;
+}
+
+.card {
+    background: var(--base-color);
+    border-radius: 25px;
+}
+
+.card-header ,
+.card-body {
+    padding: 1rem;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.card-header button {
+    background: var(--accent-color);
+    border-radius: 10px;
+    color: var(--color-green);
+    font-size: .9rem;
+    padding: .5rem;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead td {
+    font-weight: 700;
 }
